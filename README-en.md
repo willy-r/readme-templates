@@ -7,6 +7,7 @@
 🏃 [Running the project](#-running-the-project)  
 📄 [Scripts](#-scripts)  
 🔍 [Visualizing Data](#-visualizing-data)   
+📚 [API Documentation](#-api-documentation)   
 🚧 [Troubleshooting](#-troubleshooting)
 
 
@@ -58,6 +59,11 @@ MongoDB's service are not exposed at any port to the host machine, so you cannot
 - _MongoDB Database Manager_ available at [`http://localhost:8081/`](http://localhost:8081/)
   - **User**: `root`
   - **Password**: `example`
+
+
+## 📚 API Documentation
+
+All endpoints were documented using Swagger 3 for Spring Boot 3. All you have to do is open [`http://localhost:8000/docs`](http://localhost:3000/api-docs) and give it a go.
 
 
 ## 🚧 Troubleshooting
